@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1780DC27D64813002AD45D /* JSONListedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1780DB27D64813002AD45D /* JSONListedView.swift */; };
+		ED1780DE27D6491A002AD45D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1780DD27D6491A002AD45D /* InfoView.swift */; };
+		ED796FE627D0BBCE00791C6E /* AnimalLexiconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796FE527D0BBCE00791C6E /* AnimalLexiconApp.swift */; };
+		ED796FE827D0BBCE00791C6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796FE727D0BBCE00791C6E /* ContentView.swift */; };
+		ED796FEA27D0BBCF00791C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED796FE927D0BBCF00791C6E /* Assets.xcassets */; };
+		ED796FED27D0BBCF00791C6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED796FEC27D0BBCF00791C6E /* Preview Assets.xcassets */; };
+		ED796FF427D0BBE200791C6E /* animalData.json in Resources */ = {isa = PBXBuildFile; fileRef = ED796FF327D0BBE200791C6E /* animalData.json */; };
+		ED796FF827D0BBF500791C6E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796FF527D0BBF500791C6E /* Animal.swift */; };
+		ED796FF927D0BBF500791C6E /* AnimalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796FF627D0BBF500791C6E /* AnimalDetail.swift */; };
+		ED796FFA27D0BBF500791C6E /* SmallImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796FF727D0BBF500791C6E /* SmallImage.swift */; };
+		ED796FFC27D0BC9C00791C6E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796FFB27D0BC9C00791C6E /* ModelData.swift */; };
+		ED79700927D0C46C00791C6E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79700827D0C46C00791C6E /* PlaySound.swift */; };
+		ED79700F27D0CA8700791C6E /* monkey_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED79700A27D0CA8700791C6E /* monkey_sound.mp3 */; };
+		ED79701027D0CA8700791C6E /* cat_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED79700B27D0CA8700791C6E /* cat_sound.mp3 */; };
+		ED79701127D0CA8700791C6E /* dog_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED79700C27D0CA8700791C6E /* dog_sound.mp3 */; };
+		ED79701227D0CA8700791C6E /* tortoise_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED79700D27D0CA8700791C6E /* tortoise_sound.mp3 */; };
+		ED79701327D0CA8700791C6E /* parrot_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED79700E27D0CA8700791C6E /* parrot_sound.mp3 */; };
+		ED79701A27D10BD600791C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED79701927D10BD600791C6E /* LaunchScreen.storyboard */; };
+		EDF8919A27D115700019296F /* horse_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDF8919827D115700019296F /* horse_sound.mp3 */; };
+		EDF8919B27D115700019296F /* cow_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDF8919927D115700019296F /* cow_sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED1780DB27D64813002AD45D /* JSONListedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONListedView.swift; sourceTree = "<group>"; };
+		ED1780DD27D6491A002AD45D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		ED796FE227D0BBCE00791C6E /* AnimalLexicon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalLexicon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED796FE527D0BBCE00791C6E /* AnimalLexiconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalLexiconApp.swift; sourceTree = "<group>"; };
+		ED796FE727D0BBCE00791C6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED796FE927D0BBCF00791C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED796FEC27D0BBCF00791C6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED796FF327D0BBE200791C6E /* animalData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animalData.json; sourceTree = "<group>"; };
+		ED796FF527D0BBF500791C6E /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		ED796FF627D0BBF500791C6E /* AnimalDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetail.swift; sourceTree = "<group>"; };
+		ED796FF727D0BBF500791C6E /* SmallImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallImage.swift; sourceTree = "<group>"; };
+		ED796FFB27D0BC9C00791C6E /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		ED79700827D0C46C00791C6E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		ED79700A27D0CA8700791C6E /* monkey_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monkey_sound.mp3; sourceTree = "<group>"; };
+		ED79700B27D0CA8700791C6E /* cat_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat_sound.mp3; sourceTree = "<group>"; };
+		ED79700C27D0CA8700791C6E /* dog_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog_sound.mp3; sourceTree = "<group>"; };
+		ED79700D27D0CA8700791C6E /* tortoise_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tortoise_sound.mp3; sourceTree = "<group>"; };
+		ED79700E27D0CA8700791C6E /* parrot_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = parrot_sound.mp3; sourceTree = "<group>"; };
+		ED79701627D0CF1800791C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ED79701927D10BD600791C6E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF8919827D115700019296F /* horse_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = horse_sound.mp3; sourceTree = "<group>"; };
+		EDF8919927D115700019296F /* cow_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow_sound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED796FDF27D0BBCE00791C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED796FD927D0BBCE00791C6E = {
+			isa = PBXGroup;
+			children = (
+				ED79701927D10BD600791C6E /* LaunchScreen.storyboard */,
+				ED796FE427D0BBCE00791C6E /* AnimalLexicon */,
+				ED796FE327D0BBCE00791C6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED796FE327D0BBCE00791C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED796FE227D0BBCE00791C6E /* AnimalLexicon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED796FE427D0BBCE00791C6E /* AnimalLexicon */ = {
+			isa = PBXGroup;
+			children = (
+				ED79701627D0CF1800791C6E /* Info.plist */,
+				ED796FFD27D0C3F400791C6E /* Sounds */,
+				ED796FF327D0BBE200791C6E /* animalData.json */,
+				ED796FE527D0BBCE00791C6E /* AnimalLexiconApp.swift */,
+				ED796FF527D0BBF500791C6E /* Animal.swift */,
+				ED796FF627D0BBF500791C6E /* AnimalDetail.swift */,
+				ED796FFB27D0BC9C00791C6E /* ModelData.swift */,
+				ED796FF727D0BBF500791C6E /* SmallImage.swift */,
+				ED796FE727D0BBCE00791C6E /* ContentView.swift */,
+				ED1780DB27D64813002AD45D /* JSONListedView.swift */,
+				ED1780DD27D6491A002AD45D /* InfoView.swift */,
+				ED796FE927D0BBCF00791C6E /* Assets.xcassets */,
+				ED796FEB27D0BBCF00791C6E /* Preview Content */,
+			);
+			path = AnimalLexicon;
+			sourceTree = "<group>";
+		};
+		ED796FEB27D0BBCF00791C6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED796FEC27D0BBCF00791C6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED796FFD27D0C3F400791C6E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EDF8919927D115700019296F /* cow_sound.mp3 */,
+				EDF8919827D115700019296F /* horse_sound.mp3 */,
+				ED79700B27D0CA8700791C6E /* cat_sound.mp3 */,
+				ED79700C27D0CA8700791C6E /* dog_sound.mp3 */,
+				ED79700A27D0CA8700791C6E /* monkey_sound.mp3 */,
+				ED79700E27D0CA8700791C6E /* parrot_sound.mp3 */,
+				ED79700D27D0CA8700791C6E /* tortoise_sound.mp3 */,
+				ED79700827D0C46C00791C6E /* PlaySound.swift */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED796FE127D0BBCE00791C6E /* AnimalLexicon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED796FF027D0BBCF00791C6E /* Build configuration list for PBXNativeTarget "AnimalLexicon" */;
+			buildPhases = (
+				ED796FDE27D0BBCE00791C6E /* Sources */,
+				ED796FDF27D0BBCE00791C6E /* Frameworks */,
+				ED796FE027D0BBCE00791C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalLexicon;
+			productName = AnimalLexicon;
+			productReference = ED796FE227D0BBCE00791C6E /* AnimalLexicon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED796FDA27D0BBCE00791C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ED796FE127D0BBCE00791C6E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ED796FDD27D0BBCE00791C6E /* Build configuration list for PBXProject "AnimalLexicon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED796FD927D0BBCE00791C6E;
+			productRefGroup = ED796FE327D0BBCE00791C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED796FE127D0BBCE00791C6E /* AnimalLexicon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED796FE027D0BBCE00791C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED796FED27D0BBCF00791C6E /* Preview Assets.xcassets in Resources */,
+				ED79700F27D0CA8700791C6E /* monkey_sound.mp3 in Resources */,
+				EDF8919B27D115700019296F /* cow_sound.mp3 in Resources */,
+				ED79701027D0CA8700791C6E /* cat_sound.mp3 in Resources */,
+				ED79701A27D10BD600791C6E /* LaunchScreen.storyboard in Resources */,
+				ED79701227D0CA8700791C6E /* tortoise_sound.mp3 in Resources */,
+				ED796FEA27D0BBCF00791C6E /* Assets.xcassets in Resources */,
+				EDF8919A27D115700019296F /* horse_sound.mp3 in Resources */,
+				ED796FF427D0BBE200791C6E /* animalData.json in Resources */,
+				ED79701327D0CA8700791C6E /* parrot_sound.mp3 in Resources */,
+				ED79701127D0CA8700791C6E /* dog_sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED796FDE27D0BBCE00791C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED796FE827D0BBCE00791C6E /* ContentView.swift in Sources */,
+				ED1780DC27D64813002AD45D /* JSONListedView.swift in Sources */,
+				ED79700927D0C46C00791C6E /* PlaySound.swift in Sources */,
+				ED796FE627D0BBCE00791C6E /* AnimalLexiconApp.swift in Sources */,
+				ED796FFA27D0BBF500791C6E /* SmallImage.swift in Sources */,
+				ED796FF927D0BBF500791C6E /* AnimalDetail.swift in Sources */,
+				ED796FF827D0BBF500791C6E /* Animal.swift in Sources */,
+				ED1780DE27D6491A002AD45D /* InfoView.swift in Sources */,
+				ED796FFC27D0BC9C00791C6E /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED796FEE27D0BBCF00791C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED796FEF27D0BBCF00791C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED796FF127D0BBCF00791C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalLexicon/Preview Content\"";
+				DEVELOPMENT_TEAM = 5668NYPRLP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalLexicon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = augustbackhaus.AnimalLexicon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED796FF227D0BBCF00791C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalLexicon/Preview Content\"";
+				DEVELOPMENT_TEAM = 5668NYPRLP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalLexicon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = augustbackhaus.AnimalLexicon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED796FDD27D0BBCE00791C6E /* Build configuration list for PBXProject "AnimalLexicon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED796FEE27D0BBCF00791C6E /* Debug */,
+				ED796FEF27D0BBCF00791C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED796FF027D0BBCF00791C6E /* Build configuration list for PBXNativeTarget "AnimalLexicon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED796FF127D0BBCF00791C6E /* Debug */,
+				ED796FF227D0BBCF00791C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED796FDA27D0BBCE00791C6E /* Project object */;
+}

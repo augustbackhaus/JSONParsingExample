@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animal_launch_screen" translatesAutoresizingMaskIntoConstraints="NO" id="0Kg-WM-MhP">
+                                <rect key="frame" x="0.0" y="241" width="414" height="414"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0Kg-WM-MhP" secondAttribute="height" multiplier="1:1" id="5gv-2t-wmP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZP-jX-fm0">
+                                <rect key="frame" x="0.0" y="144" width="414" height="69"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Italic" family="Avenir Next" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zZP-jX-fm0" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="100" id="CSp-0q-0Ow"/>
+                            <constraint firstItem="0Kg-WM-MhP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="EwR-xT-wZb"/>
+                            <constraint firstItem="0Kg-WM-MhP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HiN-Dx-GHl"/>
+                            <constraint firstItem="0Kg-WM-MhP" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="Vep-qE-YDU"/>
+                            <constraint firstItem="zZP-jX-fm0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tTd-LR-2hI"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="zZP-jX-fm0" secondAttribute="trailing" id="v0t-Wp-Ljc"/>
+                            <constraint firstItem="zZP-jX-fm0" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="w98-di-gkv"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="0Kg-WM-MhP" secondAttribute="trailing" id="wYP-Bw-b8H"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="animal_launch_screen" width="256" height="256"/>
+    </resources>
+</document>

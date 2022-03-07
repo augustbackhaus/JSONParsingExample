@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1001,
+    "name": "Toto",
+    "age": 1,
+    "image":"dog",
+    "type": "Dog",
+    "URLString" : "https://www.britannica.com/animal/dog",
+    "sound" : "dog_sound",
+    "description" : "dog, (Canis lupus familiaris), domestic mammal of the family Canidae (order Carnivora). It is a subspecies of the gray wolf (Canis lupus) and is related to foxes and jackals. The dog is one of the two most ubiquitous and most popular domestic animals in the world (the cat is the other). For more than 12,000 years it has lived with humans as a hunting companion, protector, object of scorn or adoration, and friend. The dog evolved from the gray wolf into more than 400 distinct breeds. Human beings have played a major role in creating dogs that fulfill distinct societal needs. Through the most rudimentary form of genetic engineering, dogs were bred to accentuate instincts that were evident from their earliest encounters with humans. Although details about the evolution of dogs are uncertain, the first dogs were hunters with keen senses of sight and smell. Humans developed these instincts and created new breeds as need or desire arose."
+  },
+  {
+    "id": 1002,
+    "name": "Betsy",
+    "age": 4,
+    "image":"cat",
+    "type": "Cat",
+    "URLString" : "https://www.britannica.com/animal/cat",
+    "sound" : "cat_sound",
+    "description" : "cat, (Felis catus), also called house cat or domestic cat, domesticated member of the family Felidae, order Carnivora, and the smallest member of that family. Like all felids, domestic cats are characterized by supple low-slung bodies, finely molded heads, long tails that aid in balance, and specialized teeth and claws that adapt them admirably to a life of active hunting. Cats possess other features of their wild relatives in being basically carnivorous, remarkably agile and powerful, and finely coordinated in movement. It is noteworthy that the ancestors of the other common household pet, the dog, were social animals that lived together in packs in which there was subordination to a leader, and the dog has readily transferred its allegiance from pack leader to human master. The cat, however, has not yielded as readily to subjugation. Consequently, the house cat is able to revert to complete self-reliance more quickly and more successfully than most domesticated dogs. For an account of the relationship of the family of cats to other carnivores, see carnivore."
+  },
+  {
+    "id": 1003,
+    "name": "Olive",
+    "age": 36,
+    "image":"tortoise",
+    "type": "Tortoise",
+    "URLString" : "https://www.britannica.com/animal/tortoise",
+    "sound" : "tortoise_sound",
+    "description" : "tortoise, (family Testudinidae), any member of the turtle family Testudinidae. Formerly, the term tortoise was used to refer to any terrestrial turtle. The testudinids are easily recognized because all share a unique hind-limb anatomy made up of elephantine (or cylindrical) hind limbs and hind feet; each digit in their forefeet and hind feet contains two or fewer phalanges. With the exception of the pancake tortoise (Malacochersus tornieri), the shell is high domed. Shells of some species are nearly spherical with a flattened base."
+  },
+  {
+    "id": 1004,
+    "name": "Jupiter",
+    "age": 10,
+    "image":"parrot",
+    "type": "Parrot",
+    "URLString" : "https://www.britannica.com/animal/parrot",
+    "sound" : "parrot_sound",
+    "description" : "parrot, term applied to a large group of gaudy, raucous birds of the family Psittacidae. Parrot also is used in reference to any member of a larger bird group, order Psittaciformes, which includes cockatoos (family Cacatuidae) as well. Parrots have been kept as cage birds since ancient times, and they have always been popular because they are amusing, intelligent, and often affectionate. Several are astonishingly imitative of many sounds, including human speech. The family Psittacidae numbers 333 species. The subfamily Psittacinae, the “true” parrots, is by far the largest subfamily, with members found in warm regions worldwide. These birds have a blunt tongue and eat seeds, buds, and some fruits and insects. Many members of the subfamily are known simply as parrots, but various subgroups have more specific names such as macaw, parakeet, conure, and lovebird."
+  },
+  {
+    "id": 1005,
+    "name": "Ulysse",
+    "age": 4,
+    "image":"monkey",
+    "type": "Monkey",
+    "URLString" : "https://www.britannica.com/animal/monkey",
+    "sound" : "monkey_sound",
+    "description" : "monkey, in general, any of nearly 200 species of tailed primate, with the exception of lemurs, tarsiers, and lorises. The presence of a tail (even if only a tiny nub), along with their narrow-chested bodies and other features of the skeleton, distinguishes monkeys from apes. Most monkeys have a short, relatively flat face without great prominence of the muzzle, although baboons and mandrills are notable exceptions. The vast majority of species live in tropical forests, where they move on all four limbs. All but the durukuli of tropical Central and South America are active during the day, moving frequently in bands as they search for vegetation, birds’ eggs, smaller animals, and insects to eat. Monkeys are capable of sitting upright, and, consequently, their hands are freed for many manipulative tasks. Except for a few Old World forms, monkeys are predominantly arboreal, leaping from limb to limb in their travels among the trees. Their hands and feet are both used for grasping and typically have five digits, the thumb and big toe being divergent from the others. Commonly, the digits have flattened nails, but the marmosets have claws on all digits except the big toe, which bears a nail. On the ground, monkeys walk with the entire sole of the foot touching the ground but with the palm of the hand raised. They almost never walk on two legs (bipedally) and can stand erect for only short periods, if at all. Monkeys have large brains and are known for their inquisitiveness and intelligence. Brain development, combined with the freeing of the hands and well-developed vision, allows them a great latitude of activity. Most are good at solving complex problems and learning from experience, but they do not quite reach the cognitive levels of great apes. Some, especially the capuchins (genus Cebus), spontaneously use objects as tools (e.g., stones to crack nuts). Others, such as baboons, readily learn to use sticks to obtain food. However, in strong contrast to the great apes (gorillas, chimpanzees, and orangutans), most monkeys do not appear to be very good at learning from each others’ experience—individuals more or less have to learn new behaviours for themselves. A significant exception is the Japanese macaque (Macaca fuscata). In field experiments, these monkeys were introduced to new foods such as sweet potatoes and candies wrapped in paper. Once a few individuals had solved the problems of getting at the new foods, their innovations gradually spread throughout entire troops. These experiments have had implications in redefining cultural behaviour."
+  },
+  {
+    "id": 1006,
+    "name": "Berta",
+    "age": 8,
+    "image":"cow",
+    "type": "Cow",
+    "URLString" : "https://www.britannica.com/animal/cow",
+    "sound" : "cow_sound",
+    "description" : "cow, in common parlance, a domestic bovine, regardless of sex and age, usually of the species Bos taurus. In precise usage, the name is given to mature females of several large mammals, including cattle (bovines), moose, elephants, sea lions, and whales. Domestic cows are one of the most common farm animals around the world, and the English language has several words to describe these animals at various ages. A baby cow is called a calf. A female calf is sometimes called a heifer calf and a male a bull calf. A heifer is a female that has not had any offspring. The term usually refers to immature females; after giving birth to her first calf, however, a heifer becomes a cow. An adult male is known as a bull. Many male cattle are castrated to reduce their aggressive tendencies and make them more tractable. Young neutered males, which are primarily raised for beef, are called steers or bullocks, whereas adult neutered males, which are usually used for draft purposes, are known as oxen. A group of cows, cattle, or kine (an archaic term for more than one cow) constitutes a herd. English lacks a gender-neutral singular form, and so “cow” is used for both female individuals and all domestic bovines."
+  },
+  {
+    "id": 1007,
+    "name": "Kikki",
+    "age": 6,
+    "image":"horse",
+    "type": "Horse",
+    "URLString" : "https://www.britannica.com/animal/horse",
+    "sound" : "horse_sound",
+    "description" : "horse, (Equus caballus), a hoofed herbivorous mammal of the family Equidae. It comprises a single species, Equus caballus, whose numerous varieties are called breeds. Before the advent of mechanized vehicles, the horse was widely used as a draft animal, and riding on horseback was one of the chief means of transportation."
+  }
+]
